@@ -1,3 +1,23 @@
+<div class="container-fluid __navbar-top d-flex justify-content-end ">
+    <ul class="d-flex gap-4  text-uppercase ">
+
+        <li>
+            <a href="" class="text-white fw-bold">{{$navbarTop[0]['name']}}</a>
+        </li>
+        <li class="dropdown">
+            <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              {{$navbarTop[1]['name']}}
+            </a>
+            <ul class="dropdown-menu">
+                @foreach ($navbarTop[1]['links'] as $link )
+              <li><a class="dropdown-item" href="#">{{$link}}</a></li>
+              @endforeach
+
+            </ul>
+        </li>
+    </ul>
+
+</div>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt=""></a>

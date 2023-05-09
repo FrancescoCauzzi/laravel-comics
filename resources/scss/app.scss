@@ -1,5 +1,16 @@
 @import "~bootstrap/scss/bootstrap";
 
+.__navbar-top {
+    background-color: #0282f9;
+    padding-top: 10px;
+    li {
+        list-style: none;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
 .__header-bg {
     background-image: url(../img/jumbotron.jpg);
     height: 400px;
