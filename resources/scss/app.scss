@@ -34,21 +34,26 @@
 }
 
 .__footer-ctn {
+    position: relative;
     background-image: url(../img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 
-    ul {
-        min-width: 150px;
-        li {
-            list-style: none;
-            a {
-                text-decoration: none;
-                color: #898989;
-            }
+    li {
+        list-style: none;
+        a {
+            text-decoration: none;
+            color: #898989;
         }
-        .__shop {
-            margin-top: -120px;
-        }
+    }
+    .__shop {
+        margin-top: -110px;
+    }
+    #dc-logo-bg {
+        position: absolute;
+        right: 10%;
+        bottom: -18%;
+        z-index: 0;
     }
 }

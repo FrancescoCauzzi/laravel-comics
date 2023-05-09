@@ -24,7 +24,7 @@
     </div>
     <img
     id="dc-logo-bg"
-    src="/img/dc-logo-bg.png"
+    src="{{asset('img/dc-logo-bg.png')}}"
         alt="Cannot retrieve image"
         />
     </div>
