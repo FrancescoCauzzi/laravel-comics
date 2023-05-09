@@ -17,6 +17,7 @@ Route::get('/', function () {
     $comics = config('comics');
     $footerItems = config('footerItems');
     $navbar = ['navbar' => ['Charachters', 'Comics', 'Movies', 'Tv', 'Games', 'Collectibles', 'Videos', 'Fans', 'News'], 'navbarDropDown' => ['Shop', 'ddItems' => ['Clothes', 'Albums', 'Posters']]];
+    $dcFeatures = config('dcFeatures');
 
-    return view('home', compact('navbar', 'comics', 'footerItems'));
+    return view('home', compact('navbar', 'comics', 'footerItems', 'dcFeatures'));
 })->name('home');

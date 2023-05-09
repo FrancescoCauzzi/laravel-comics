@@ -23,10 +23,23 @@
 
         @endforeach
     </div>
-    <div class="text-center">
+    <div class="text-center mb-5">
         <button type="button" class="btn btn-primary text-uppercase fw-bold px-5">Load more</button>
+    </div>
+    <div class="container-fluid __dc-features-ctn-fluid d-flex justify-content-center">
+        <div class="container py-5">
+            <div class=" text-white">
+                @foreach ($dcFeatures as $feature )
+            <div
 
-
+                class=" d-flex align-items-center __col gap-1"
+            >
+                <img class="" src="{{asset($feature['imageSrc'])}}" alt="cannot retrieve image" />
+                <div class="__name px-2 text-uppercase">{{$feature['name']}}</div>
+                @endforeach
+                </div>
+            </div>
+      </div>
     </div>
 
 
