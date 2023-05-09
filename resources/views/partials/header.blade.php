@@ -32,5 +32,13 @@
       </div>
     </div>
 </nav>
+<div class="container-fluid __header-bg">
+    <div class="container">
+
+        <div class="__current-series text-uppercase text-white fw-bold fs-4">
+            <span >Current Series</span>
+        </div>
+    </div>
+</div>
 
 

@@ -3,14 +3,7 @@
 @section('content')
 <main class="__main">
 
-    <div class="container-fluid __main-top-bg">
-        <div class="container">
 
-            <div class="__current-series text-uppercase text-white fw-bold fs-4">
-                <span >Current Series</span>
-            </div>
-        </div>
-    </div>
     <div class="container py-5 d-flex flex-wrap justify-content-center __card-ctn">
         @foreach ($comics as $item)
         <div class="card __card" >

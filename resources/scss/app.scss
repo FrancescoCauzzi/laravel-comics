@@ -1,20 +1,21 @@
 @import "~bootstrap/scss/bootstrap";
 
+.__header-bg {
+    background-image: url(../img/jumbotron.jpg);
+    height: 400px;
+    position: relative;
+    .__current-series {
+        background-color: #0282f9;
+        position: absolute;
+        bottom: -20px;
+
+        padding: 5px 10px 5px 10px;
+    }
+}
+
 .__main {
     background-color: #1c1c1c;
 
-    .__main-top-bg {
-        background-image: url(../img/jumbotron.jpg);
-        height: 400px;
-        position: relative;
-        .__current-series {
-            background-color: #0282f9;
-            position: absolute;
-            bottom: -20px;
-
-            padding: 5px 10px 5px 10px;
-        }
-    }
     .__card-ctn {
         gap: 15px;
 
