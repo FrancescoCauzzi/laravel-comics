@@ -5,6 +5,12 @@
 
 
     <div class="container py-5 d-flex flex-wrap justify-content-center __card-ctn">
+        <div class="container">
+
+            <div class="__current-series text-uppercase text-white fw-bold fs-4">
+                <span >Current Series</span>
+            </div>
+        </div>
         @foreach ($comics as $item)
         <div class="card __card" >
             <a href=""><img src="{{$item['thumb']}}" class="card-img-top" alt="..."></a>
@@ -27,7 +33,7 @@
 
                 class=" d-flex align-items-center __col gap-1"
             >
-                <img class="" src="{{asset($feature['imageSrc'])}}" alt="cannot retrieve image" />
+                <img class="" src="{{ Vite::asset('resources' .$feature['imageSrc'])}}" alt="cannot retrieve image" />
                 <div class="__name px-2 text-uppercase">{{$feature['name']}}</div>
                 @endforeach
                 </div>

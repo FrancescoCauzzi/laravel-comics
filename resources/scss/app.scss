@@ -15,20 +15,21 @@
 .__header-bg {
     background-image: url(../img/jumbotron.jpg);
     height: 400px;
-    position: relative;
-    .__current-series {
-        background-color: #0282f9;
-        position: absolute;
-        bottom: -20px;
-
-        padding: 5px 10px 5px 10px;
-    }
 }
 
 .__main {
     background-color: #1c1c1c;
 
     .__card-ctn {
+        position: relative;
+        .__current-series {
+            background-color: #0282f9;
+            position: absolute;
+            top: -20px;
+            left: -15px;
+
+            padding: 5px 10px 5px 10px;
+        }
         gap: 15px;
 
         .__card {
