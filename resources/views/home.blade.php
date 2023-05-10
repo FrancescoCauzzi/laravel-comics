@@ -7,7 +7,7 @@
     <div class="container py-5 d-flex flex-wrap justify-content-center __card-ctn">
         @foreach ($comics as $item)
         <div class="card __card" >
-            <img src="{{$item['thumb']}}" class="card-img-top" alt="...">
+            <a href=""><img src="{{$item['thumb']}}" class="card-img-top" alt="..."></a>
             <div class="card-body">
               <h6 class="card-title text-uppercase text-white __card-title">{{$item['title']}}</h6>
 

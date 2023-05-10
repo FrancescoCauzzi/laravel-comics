@@ -2,7 +2,7 @@
     <ul class="d-flex gap-4  text-uppercase align-items-center ">
 
         <li>
-            <a href="" class="text-white fw-bold">{{$navbarTop[0]['name']}}</a>
+            <a href="#" class="text-white fw-bold">{{$navbarTop[0]['name']}}</a>
         </li>
         <li class="dropdown">
             <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -28,7 +28,7 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase ">
             @foreach ($navbar['navbar'] as $navbarEl)
             <li class="nav-item ">
-                <a class="nav-link fw-bold" aria-current="page" href="#">{{$navbarEl}}</a>
+                <a class="nav-link fw-bold" aria-current="page" href="/{{$navbarEl}}">{{$navbarEl}}</a>
             </li>
             @endforeach
 

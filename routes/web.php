@@ -23,3 +23,14 @@ Route::get('/', function () {
 
     return view('home', compact('navbar', 'comics', 'footerItems', 'dcFeatures', 'dcNavbarBottom', 'navbarTop'));
 })->name('home');
+
+Route::get('/movies', function () {
+    $comics = config('comics');
+    $footerItems = config('footerItems');
+    $navbarTop = config('navbarTop');
+    $navbar = config('navbar');
+    $dcFeatures = config('dcFeatures');
+    $dcNavbarBottom = config('dcNavbarBottom');
+
+    return view('movies', compact('navbar', 'comics', 'footerItems', 'dcFeatures', 'dcNavbarBottom', 'navbarTop'));
+})->name('movies');

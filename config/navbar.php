@@ -1,2 +1,2 @@
 <?php
-return $navbar = ['navbar' => ['Charachters', 'Comics', 'Movies', 'Tv', 'Games', 'Collectibles', 'Videos', 'Fans', 'News'], 'navbarDropDown' => ['Shop', 'ddItems' => ['Clothes', 'Albums', 'Posters']]];
+return $navbar = ['navbar' => ['charachters', 'comics', 'movies', 'tv', 'games', 'collectibles', 'videos', 'fans', 'news'], 'navbarDropDown' => ['shop', 'ddItems' => ['clothes', 'albums', 'posters']]];
