@@ -1,5 +1,5 @@
 <div class="container-fluid __navbar-top d-flex justify-content-end ">
-    <ul class="d-flex gap-4  text-uppercase ">
+    <ul class="d-flex gap-4  text-uppercase align-items-center ">
 
         <li>
             <a href="" class="text-white fw-bold">{{$navbarTop[0]['name']}}</a>
